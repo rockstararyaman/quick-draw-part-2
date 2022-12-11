@@ -1,0 +1,53 @@
+body {
+    background-color: darkkhaki;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(10, 120, 20);
+    background-color: aquamarine;
+}
+
+#show_sketch {
+    float: right;
+}
+
+#timer {
+    float: right;
+    margin-right: 170px;
+}
+
+#score {
+    float: left;
+    margin-left: 170px;
+}
+
+canvas {
+
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: project;
+    animation-duration: 3s;
+    margin-top: 210px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes project {
+
+    from {
+        box-shadow: 2px 2px 150px white;
+    }
+
+    to {
+        box-shadow: 2px 2px 150px grey;
+    }
+
+}
+
+p {
+
+    padding-top: 10px;
+    font-size: 25px;
+}
